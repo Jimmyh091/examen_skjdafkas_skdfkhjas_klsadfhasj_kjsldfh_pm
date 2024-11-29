@@ -2,4 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="verdito">#D4FFAD</color>
+    <color name="rojito">#EC6F69</color>
 </resources>

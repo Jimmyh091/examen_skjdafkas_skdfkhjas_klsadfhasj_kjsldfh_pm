@@ -9,16 +9,19 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/verdito">
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:background="@color/rojito"
                 android:id="@+id/linearLayout"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:orientation="horizontal"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                >
 
 
                 <TextView
@@ -26,6 +29,7 @@
                     android:layout_height="wrap_content"
                     android:text="Añadir Pokemon"
                     android:textSize="20sp"
+                    android:textColor="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -57,7 +61,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="hint" />
+                     />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
@@ -82,7 +86,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="hint" />
+                     />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
@@ -129,7 +133,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="hint" />
+                     />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
@@ -165,7 +169,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:hint="hint" />
+                     />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
@@ -191,7 +195,7 @@
                     android:layout_width="match_parent"
                     android:focusable="false"
                     android:layout_height="wrap_content"
-                    android:hint="hint" />
+                     />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -200,6 +204,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="100dp"
                 android:layout_marginEnd="50dp"
+                android:backgroundTint="@color/rojito"
                 android:clickable="true"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/fecha"
